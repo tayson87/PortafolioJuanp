@@ -1,0 +1,182 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url( https://www.foronuclear.org/wp-content/uploads/2010/06/planeta-Tierra.jpg)
+}
+nav {
+    
+    justify-content: right;
+    padding: 30px;
+    margin: 30px;
+    font-family: sans-serif;
+    
+    
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    position: right;
+    width: 800px;
+    list-style : none;
+   
+   
+}
+
+div {
+    display : flex;
+    justify-content: space-between;
+   
+}
+ h3 {
+     color: blanchedalmond;
+ }
+
+nav >  i {
+    color: blanchedalmond;
+}
+
+.Home1 {
+    animation-name: Home1 ;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+@keyframes Home1 {
+    from{
+        transform:  scale(1.0);
+    }
+    to{
+transform: scale(1.1);
+    }
+    
+}
+
+
+.Modelos1 {
+    animation-name: Modelos1 ;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+@keyframes Modelos1 {
+    from{
+        transform:  scale(1.0);
+    }
+    to{
+transform: scale(1.1);
+    }
+    
+}
+
+.Articulo1 {
+    animation-name: Articulo1 ;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+@keyframes  Articulo1 {
+    from{
+        transform:  scale(1.0);
+    }
+    to{
+transform: scale(1.1);
+    }
+    
+}
+
+.Contacto1 {
+    animation-name: Contacto1 ;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+@keyframes  Contacto1 {
+    from{
+        transform:  scale(1.0);
+    }
+    to{
+transform: scale(1.1);
+    }
+    
+}
+
+.Home {
+    text-decoration: none;
+    color:  white;
+}
+
+.Modelos {
+    text-decoration: none;
+    color:  white;
+}
+
+.Articulos {
+    text-decoration: none;
+    color:  white;
+}
+
+.Contactenos {
+    text-decoration: none;
+    color:  white;
+}
+
+.Nombre {
+    color: white;
+    display: flex;
+    justify-content: right
+        
+        
+}
+.Nombre {
+    padding: 50px;
+     margin:auto;
+    }
+
+    .Nombre {
+        animation-name: Nombre ;
+        animation-iteration-count: infinite;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-direction: alternate;     
+    }
+
+    @keyframes  Nombre {
+       from {
+           opacity: 1;
+       }
+       to {
+           opacity: 0;
+       }
+    }
+
+      
+    section  {
+             display: flex;
+             border-radius: 6px;            
+             
+    }
+
+  
+
+    
+   
